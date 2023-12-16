@@ -41,7 +41,7 @@ body{
     @include font-text(var(--font-family), var(--font-weight-price), var(--font-size), var(--bg-color-card));
     background-color: var(--bg-color-card);
     max-width: 350px;
-    margin: 200px auto;
+    margin: 180px auto;
     padding-bottom: 10px;
     text-align: center;
 
@@ -129,4 +129,9 @@ body{
         }
 
     }
+}
+
+footer{
+    @include font-text(var(--font-family), var(--font-weight-price), var(--font-size), var(--bg-color-button));
+    text-align: center;
 }

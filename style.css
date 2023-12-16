@@ -33,7 +33,7 @@ body {
   color: var(--bg-color-card);
   background-color: var(--bg-color-card);
   max-width: 350px;
-  margin: 200px auto;
+  margin: 180px auto;
   padding-bottom: 10px;
   text-align: center;
 }
@@ -140,6 +140,14 @@ body {
 }
 .card__button--cancel:hover {
   background-color: rgb(246, 246, 246);
+}
+
+footer {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-price);
+  font-size: var(--font-size);
+  color: var(--bg-color-button);
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
