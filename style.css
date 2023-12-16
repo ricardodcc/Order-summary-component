@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Roboto&display=swap");
+:root {
+  --bg-color-top: hsl(225, 100%, 94%);
+  --bg-color-bot: hsl(225, 100%, 98%);
+  --bg-color-button: hsl(245, 75%, 52%);
+  --bg-color-card: #FFF;
+  --font-family-fb: "Red Hat Display", sans-serif;
+  --font-weight-fb: 900;
+  --font-size: 16px;
+  --text-color: #000;
+  --font-family: "Red Hat Display", sans-serif;
+  --font-weight-info: 500;
+  --font-weight-price: 700;
+  --font-weight-title: 900;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: var(--bg-color-top);
+}
+
+.card {
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 2px 10px -7px black;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-price);
+  font-size: var(--font-size);
+  color: var(--bg-color-card);
+  background-color: var(--bg-color-card);
+  max-width: 350px;
+  margin: 200px auto;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.card__img {
+  border-radius: 10px 10px 0px 0px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.card__summary {
+  --font-size: 22px;
+  --text-color: hsl(223, 47%, 23%);
+  margin-top: 32px;
+  margin-right: 0px;
+  margin-bottom: 16px;
+  margin-left: 0px;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-title);
+  font-size: var(--font-size);
+  color: var(--text-color);
+}
+.card p {
+  --font-size: 14px;
+  --text-color:hsl(223, 25%, 63%);
+  margin-top: 0px;
+  margin-right: 16px;
+  margin-bottom: 0px;
+  margin-left: 16px;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-info);
+  font-size: var(--font-size);
+  color: var(--text-color);
+}
+.card .sub-plan {
+  margin-top: 16px;
+  margin-right: 28px;
+  margin-bottom: 16px;
+  margin-left: 28px;
+  border-radius: 10px 10px 10px 10px;
+  align-items: center;
+  background-color: var(--bg-color-bot);
+  display: flex;
+  justify-content: space-around;
+  padding: 16px 8px;
+}
+.card .sub-plan img {
+  max-width: 40px;
+  max-height: 40px;
+}
+.card .sub-plan .info {
+  --text-color: hsl(223, 25%, 63%);
+  --font-size: 14px;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-price);
+  font-size: var(--font-size);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  padding-right: 72px;
+}
+.card .sub-plan .info span {
+  --text-color: hsl(223, 47%, 23%);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-title);
+  font-size: var(--font-size);
+  color: var(--text-color);
+}
+.card .sub-plan .info + a {
+  --font-size: 12px;
+  --text-color: var(--bg-color-button);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-title);
+  font-size: var(--font-size);
+  color: var(--text-color);
+}
+.card__button {
+  --font-size: 12px;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-price);
+  font-size: var(--font-size);
+  color: var(--bg-color-card);
+  margin-top: 0px;
+  margin-right: 27px;
+  margin-bottom: 10px;
+  margin-left: 27px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 5px 20px -8px var(--bg-color-button);
+  background-color: var(--bg-color-button);
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+.card__button:hover {
+  background-color: hsl(245, 91%, 46%);
+}
+.card__button--cancel {
+  box-shadow: 0px 0px 0px 0px black;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-title);
+  font-size: var(--font-size);
+  color: var(--bg-color-card);
+  background-color: transparent;
+  color: hsl(223, 25%, 63%);
+}
+.card__button--cancel:hover {
+  background-color: rgb(246, 246, 246);
+}
+
+/*# sourceMappingURL=style.css.map */

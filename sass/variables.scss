@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Roboto&display=swap');
+
+:root{
+    // background colors
+    --bg-color-top : hsl(225, 100%, 94%);
+    --bg-color-bot : hsl(225, 100%, 98%);
+    --bg-color-button: hsl(245, 75%, 52%);
+    --bg-color-card : #FFF;
+
+    // font families - fallback
+    --font-family-fb: 'Red Hat Display', sans-serif;
+    --font-weight-fb: 900;
+    --font-size: 16px;
+    --text-color: #000;
+
+    // other vars
+        // real font families
+        --font-family: 'Red Hat Display', sans-serif;
+        --font-weight-info: 500;
+        --font-weight-price: 700;
+        --font-weight-title: 900;
+
+
+
+}
